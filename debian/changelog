@@ -1,5 +1,9 @@
-crossover-meta (0.7) UNRELEASED; urgency=medium
+crossover-meta (0.7) unstable; urgency=medium
 
-  * Initial release.
+  * Add Debian release workflow
+  * README.md: update
+  * d/control: update description
+  * Add LICENSE.md
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Thu, 18 Jun 2026 22:02:40 -0400
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Thu, 18 Jun 2026 22:53:08 -0400
