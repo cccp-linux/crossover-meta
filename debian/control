@@ -1,0 +1,19 @@
+Source: crossover-meta
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.4
+Vcs-Browser: https://github.com/cccp-linux/crossover-meta
+Vcs-Git: https://github.com/cccp-linux/crossover-meta.git
+
+Package: crossover-meta
+Architecture: amd64
+Depends:
+ ${misc:Depends},
+ crossover,
+Recommends:
+ libc6:i386,
+ libfontconfig1:i386,
+ libfreetype6:i386,
+Description: crossover-meta

@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "install" ]; then
+    if ! dpkg --print-foreign-architectures | grep -qx "i386" ; then
+        echo "
+========================================================================
+Support for i386 is required. Enable it by running:
+
+  sudo dpkg --add-architecture i386
+  sudo apt update
+
+========================================================================
+"
+        exit 1
+    fi
+fi
+
+exit 0
